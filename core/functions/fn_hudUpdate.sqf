@@ -1,0 +1,5 @@
+/*
+
+cool function
+xd
+*/
