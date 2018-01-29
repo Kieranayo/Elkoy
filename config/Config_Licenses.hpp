@@ -15,6 +15,13 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
+	class undercover {
+        variable = "undercover";
+        displayName = "STR_License_Undercover";
+        price = 2500;
+        illegal = false;
+        side = "cop";
+    };
 
     class boat {
         variable = "boat";
