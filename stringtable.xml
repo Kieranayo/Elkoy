@@ -6523,6 +6523,9 @@
             <Portuguese>Licença de Motorista</Portuguese>
             <Polish>Prawo jazdy</Polish>
         </Key>
+	    <Key ID="STR_License_undercover">
+            <Original>Undercover</Original>
+        </Key>
 		<Key ID="STR_License_NPAS">
             <Original>NPAS License</Original>
         </Key>
