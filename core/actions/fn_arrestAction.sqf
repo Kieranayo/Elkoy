@@ -21,7 +21,7 @@ if (life_HC_isActive) then {
 } else {
     [getPlayerUID _unit,_unit,player,false] remoteExecCall ["life_fnc_wantedBounty",RSERV];
 };
-
+["Jailed"] spawn mav_ttm_fnc_addExp;
 if (isNull _unit) exitWith {}; //Not valid
 detach _unit;
 [_unit,false] remoteExecCall ["life_fnc_jail",_unit];
