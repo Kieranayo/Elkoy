@@ -74,6 +74,7 @@ if (count crew _vehicle isEqualTo 0) then {
             if (BANK < 0) then {BANK = 0;};
             [1] call SOCK_fnc_updatePartial;
     };
+    ["Impound"] spawn mav_ttm_fnc_addExp;
 };
 
 life_action_inUse = false;
