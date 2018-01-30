@@ -71,6 +71,7 @@ if (!alive player || life_istazed || life_isknocked) exitWith {life_action_inUse
 if (player getVariable["restrained",false]) exitWith {life_action_inUse = false;_hideout setVariable ["inCapture",false,true];};
 if (life_interrupted) exitWith {life_interrupted = false; titleText[localize "STR_GNOTF_CaptureCancel","PLAIN"]; life_action_inUse = false;_hideout setVariable ["inCapture",false,true];};
 life_action_inUse = false;
+["Hideout"] spawn mav_ttm_fnc_addExp;
 
 titleText[localize "STR_GNOTF_Captured","PLAIN"];
 _flagTexture = [
