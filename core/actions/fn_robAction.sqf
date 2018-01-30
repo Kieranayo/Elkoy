@@ -16,3 +16,4 @@ if (!isPlayer _target) exitWith {};
 if (_target getVariable ["robbed",false]) exitWith {};
 [player] remoteExecCall ["life_fnc_robPerson",_target];
 _target setVariable ["robbed",TRUE,TRUE];
+["Robbed"] spawn mav_ttm_fnc_addExp;
